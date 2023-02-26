@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ISpy" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0QO-8g-ldn">
+                                <rect key="frame" x="0.0" y="59" width="393" height="793"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dragon" translatesAutoresizingMaskIntoConstraints="NO" id="7uX-iE-Sm2">
+                                        <rect key="frame" x="0.0" y="0.0" width="1200" height="793"/>
+                                        <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                                <constraints>
+                                    <constraint firstItem="7uX-iE-Sm2" firstAttribute="top" secondItem="ToS-38-dck" secondAttribute="top" id="1fr-b0-Dw0"/>
+                                    <constraint firstItem="7uX-iE-Sm2" firstAttribute="trailing" secondItem="ToS-38-dck" secondAttribute="trailing" constant="393" id="A98-0X-mTq"/>
+                                    <constraint firstItem="7uX-iE-Sm2" firstAttribute="bottom" secondItem="ToS-38-dck" secondAttribute="bottom" constant="793" id="JwB-7X-rIa"/>
+                                    <constraint firstItem="7uX-iE-Sm2" firstAttribute="leading" secondItem="ToS-38-dck" secondAttribute="leading" id="iRu-ho-u6W"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="ToS-38-dck"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="X3m-hx-r0e"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                        <constraints>
+                            <constraint firstItem="0QO-8g-ldn" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="JLa-IW-VNt"/>
+                            <constraint firstItem="0QO-8g-ldn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="RiY-qA-owc"/>
+                            <constraint firstItem="0QO-8g-ldn" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="lDb-iP-K4F"/>
+                            <constraint firstAttribute="bottom" secondItem="0QO-8g-ldn" secondAttribute="bottom" id="qmd-Nv-wEa"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="dragonImage" destination="7uX-iE-Sm2" id="5PY-K4-ZAs"/>
+                        <outlet property="scrollView" destination="0QO-8g-ldn" id="mi3-bT-IRm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-129.00763358778624" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="dragon" width="1200" height="638"/>
+        <systemColor name="opaqueSeparatorColor">
+            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
