@@ -7,33 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CB48C54029B0A33B00F9870C /* EmojiTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB48C53F29B0A33B00F9870C /* EmojiTableViewCell.swift */; };
-		CB48C54229B0A99A00F9870C /* AddEditEmojiTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB48C54129B0A99A00F9870C /* AddEditEmojiTableViewController.swift */; };
-		CB548E7D29ABA9DC00C5CEC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB548E7C29ABA9DC00C5CEC7 /* AppDelegate.swift */; };
-		CB548E7F29ABA9DC00C5CEC7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB548E7E29ABA9DC00C5CEC7 /* SceneDelegate.swift */; };
-		CB548E8429ABA9DC00C5CEC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB548E8229ABA9DC00C5CEC7 /* Main.storyboard */; };
-		CB548E8629ABA9DF00C5CEC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB548E8529ABA9DF00C5CEC7 /* Assets.xcassets */; };
-		CB548E8929ABA9DF00C5CEC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB548E8729ABA9DF00C5CEC7 /* LaunchScreen.storyboard */; };
-		CB548E9129ABAA2800C5CEC7 /* emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB548E9029ABAA2800C5CEC7 /* emoji.swift */; };
-		CB548E9329ABABA400C5CEC7 /* EmojiTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB548E9229ABABA400C5CEC7 /* EmojiTableViewController.swift */; };
+		CB48C52429B0903000F9870C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB48C52329B0903000F9870C /* AppDelegate.swift */; };
+		CB48C52629B0903000F9870C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB48C52529B0903000F9870C /* SceneDelegate.swift */; };
+		CB48C52B29B0903000F9870C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB48C52929B0903000F9870C /* Main.storyboard */; };
+		CB48C52D29B0903200F9870C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB48C52C29B0903200F9870C /* Assets.xcassets */; };
+		CB48C53029B0903200F9870C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB48C52E29B0903200F9870C /* LaunchScreen.storyboard */; };
+		CB48C53829B091C300F9870C /* FoodTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB48C53729B091C300F9870C /* FoodTableViewController.swift */; };
+		CB48C53A29B091EC00F9870C /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB48C53929B091EC00F9870C /* Food.swift */; };
+		CB48C53C29B0922600F9870C /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB48C53B29B0922600F9870C /* Meal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CB48C53F29B0A33B00F9870C /* EmojiTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiTableViewCell.swift; sourceTree = "<group>"; };
-		CB48C54129B0A99A00F9870C /* AddEditEmojiTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditEmojiTableViewController.swift; sourceTree = "<group>"; };
-		CB548E7929ABA9DC00C5CEC7 /* EmojiDictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmojiDictionary.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB548E7C29ABA9DC00C5CEC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CB548E7E29ABA9DC00C5CEC7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CB548E8329ABA9DC00C5CEC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CB548E8529ABA9DF00C5CEC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CB548E8829ABA9DF00C5CEC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		CB548E8A29ABA9DF00C5CEC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CB548E9029ABAA2800C5CEC7 /* emoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emoji.swift; sourceTree = "<group>"; };
-		CB548E9229ABABA400C5CEC7 /* EmojiTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiTableViewController.swift; sourceTree = "<group>"; };
+		CB48C52029B0903000F9870C /* Meal Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meal Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB48C52329B0903000F9870C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CB48C52529B0903000F9870C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CB48C52A29B0903000F9870C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB48C52C29B0903200F9870C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB48C52F29B0903200F9870C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB48C53129B0903200F9870C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB48C53729B091C300F9870C /* FoodTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTableViewController.swift; sourceTree = "<group>"; };
+		CB48C53929B091EC00F9870C /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		CB48C53B29B0922600F9870C /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CB548E7629ABA9DC00C5CEC7 /* Frameworks */ = {
+		CB48C51D29B0903000F9870C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,75 +41,74 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CB548E7029ABA9DC00C5CEC7 = {
+		CB48C51729B0903000F9870C = {
 			isa = PBXGroup;
 			children = (
-				CB548E7B29ABA9DC00C5CEC7 /* EmojiDictionary */,
-				CB548E7A29ABA9DC00C5CEC7 /* Products */,
+				CB48C52229B0903000F9870C /* Meal Tracker */,
+				CB48C52129B0903000F9870C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		CB548E7A29ABA9DC00C5CEC7 /* Products */ = {
+		CB48C52129B0903000F9870C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CB548E7929ABA9DC00C5CEC7 /* EmojiDictionary.app */,
+				CB48C52029B0903000F9870C /* Meal Tracker.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CB548E7B29ABA9DC00C5CEC7 /* EmojiDictionary */ = {
+		CB48C52229B0903000F9870C /* Meal Tracker */ = {
 			isa = PBXGroup;
 			children = (
-				CB548E7C29ABA9DC00C5CEC7 /* AppDelegate.swift */,
-				CB548E7E29ABA9DC00C5CEC7 /* SceneDelegate.swift */,
-				CB548E8229ABA9DC00C5CEC7 /* Main.storyboard */,
-				CB48C54129B0A99A00F9870C /* AddEditEmojiTableViewController.swift */,
-				CB548E9229ABABA400C5CEC7 /* EmojiTableViewController.swift */,
-				CB48C53F29B0A33B00F9870C /* EmojiTableViewCell.swift */,
-				CB548E9029ABAA2800C5CEC7 /* emoji.swift */,
-				CB548E8529ABA9DF00C5CEC7 /* Assets.xcassets */,
-				CB548E8729ABA9DF00C5CEC7 /* LaunchScreen.storyboard */,
-				CB548E8A29ABA9DF00C5CEC7 /* Info.plist */,
+				CB48C52329B0903000F9870C /* AppDelegate.swift */,
+				CB48C52529B0903000F9870C /* SceneDelegate.swift */,
+				CB48C52929B0903000F9870C /* Main.storyboard */,
+				CB48C53929B091EC00F9870C /* Food.swift */,
+				CB48C53B29B0922600F9870C /* Meal.swift */,
+				CB48C53729B091C300F9870C /* FoodTableViewController.swift */,
+				CB48C52C29B0903200F9870C /* Assets.xcassets */,
+				CB48C52E29B0903200F9870C /* LaunchScreen.storyboard */,
+				CB48C53129B0903200F9870C /* Info.plist */,
 			);
-			path = EmojiDictionary;
+			path = "Meal Tracker";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CB548E7829ABA9DC00C5CEC7 /* EmojiDictionary */ = {
+		CB48C51F29B0903000F9870C /* Meal Tracker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CB548E8D29ABA9DF00C5CEC7 /* Build configuration list for PBXNativeTarget "EmojiDictionary" */;
+			buildConfigurationList = CB48C53429B0903200F9870C /* Build configuration list for PBXNativeTarget "Meal Tracker" */;
 			buildPhases = (
-				CB548E7529ABA9DC00C5CEC7 /* Sources */,
-				CB548E7629ABA9DC00C5CEC7 /* Frameworks */,
-				CB548E7729ABA9DC00C5CEC7 /* Resources */,
+				CB48C51C29B0903000F9870C /* Sources */,
+				CB48C51D29B0903000F9870C /* Frameworks */,
+				CB48C51E29B0903000F9870C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = EmojiDictionary;
-			productName = EmojiDictionary;
-			productReference = CB548E7929ABA9DC00C5CEC7 /* EmojiDictionary.app */;
+			name = "Meal Tracker";
+			productName = "Meal Tracker";
+			productReference = CB48C52029B0903000F9870C /* Meal Tracker.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CB548E7129ABA9DC00C5CEC7 /* Project object */ = {
+		CB48C51829B0903000F9870C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					CB548E7829ABA9DC00C5CEC7 = {
+					CB48C51F29B0903000F9870C = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
 			};
-			buildConfigurationList = CB548E7429ABA9DC00C5CEC7 /* Build configuration list for PBXProject "EmojiDictionary" */;
+			buildConfigurationList = CB48C51B29B0903000F9870C /* Build configuration list for PBXProject "Meal Tracker" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -119,58 +116,57 @@
 				en,
 				Base,
 			);
-			mainGroup = CB548E7029ABA9DC00C5CEC7;
-			productRefGroup = CB548E7A29ABA9DC00C5CEC7 /* Products */;
+			mainGroup = CB48C51729B0903000F9870C;
+			productRefGroup = CB48C52129B0903000F9870C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CB548E7829ABA9DC00C5CEC7 /* EmojiDictionary */,
+				CB48C51F29B0903000F9870C /* Meal Tracker */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CB548E7729ABA9DC00C5CEC7 /* Resources */ = {
+		CB48C51E29B0903000F9870C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB548E8929ABA9DF00C5CEC7 /* LaunchScreen.storyboard in Resources */,
-				CB548E8629ABA9DF00C5CEC7 /* Assets.xcassets in Resources */,
-				CB548E8429ABA9DC00C5CEC7 /* Main.storyboard in Resources */,
+				CB48C53029B0903200F9870C /* LaunchScreen.storyboard in Resources */,
+				CB48C52D29B0903200F9870C /* Assets.xcassets in Resources */,
+				CB48C52B29B0903000F9870C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CB548E7529ABA9DC00C5CEC7 /* Sources */ = {
+		CB48C51C29B0903000F9870C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB48C54229B0A99A00F9870C /* AddEditEmojiTableViewController.swift in Sources */,
-				CB548E7D29ABA9DC00C5CEC7 /* AppDelegate.swift in Sources */,
-				CB548E9129ABAA2800C5CEC7 /* emoji.swift in Sources */,
-				CB48C54029B0A33B00F9870C /* EmojiTableViewCell.swift in Sources */,
-				CB548E7F29ABA9DC00C5CEC7 /* SceneDelegate.swift in Sources */,
-				CB548E9329ABABA400C5CEC7 /* EmojiTableViewController.swift in Sources */,
+				CB48C53C29B0922600F9870C /* Meal.swift in Sources */,
+				CB48C52429B0903000F9870C /* AppDelegate.swift in Sources */,
+				CB48C53A29B091EC00F9870C /* Food.swift in Sources */,
+				CB48C53829B091C300F9870C /* FoodTableViewController.swift in Sources */,
+				CB48C52629B0903000F9870C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CB548E8229ABA9DC00C5CEC7 /* Main.storyboard */ = {
+		CB48C52929B0903000F9870C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CB548E8329ABA9DC00C5CEC7 /* Base */,
+				CB48C52A29B0903000F9870C /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		CB548E8729ABA9DF00C5CEC7 /* LaunchScreen.storyboard */ = {
+		CB48C52E29B0903200F9870C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CB548E8829ABA9DF00C5CEC7 /* Base */,
+				CB48C52F29B0903200F9870C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -178,7 +174,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		CB548E8B29ABA9DF00C5CEC7 /* Debug */ = {
+		CB48C53229B0903200F9870C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -238,7 +234,7 @@
 			};
 			name = Debug;
 		};
-		CB548E8C29ABA9DF00C5CEC7 /* Release */ = {
+		CB48C53329B0903200F9870C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -292,7 +288,7 @@
 			};
 			name = Release;
 		};
-		CB548E8E29ABA9DF00C5CEC7 /* Debug */ = {
+		CB48C53529B0903200F9870C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -301,7 +297,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = BF9955PJ9F;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = EmojiDictionary/Info.plist;
+				INFOPLIST_FILE = "Meal Tracker/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -312,7 +308,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Imaev-Dima.EmojiDictionary";
+				PRODUCT_BUNDLE_IDENTIFIER = "Imaev-Dima.Meal-Tracker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -320,7 +316,7 @@
 			};
 			name = Debug;
 		};
-		CB548E8F29ABA9DF00C5CEC7 /* Release */ = {
+		CB48C53629B0903200F9870C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -329,7 +325,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = BF9955PJ9F;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = EmojiDictionary/Info.plist;
+				INFOPLIST_FILE = "Meal Tracker/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -340,7 +336,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Imaev-Dima.EmojiDictionary";
+				PRODUCT_BUNDLE_IDENTIFIER = "Imaev-Dima.Meal-Tracker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -351,25 +347,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CB548E7429ABA9DC00C5CEC7 /* Build configuration list for PBXProject "EmojiDictionary" */ = {
+		CB48C51B29B0903000F9870C /* Build configuration list for PBXProject "Meal Tracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CB548E8B29ABA9DF00C5CEC7 /* Debug */,
-				CB548E8C29ABA9DF00C5CEC7 /* Release */,
+				CB48C53229B0903200F9870C /* Debug */,
+				CB48C53329B0903200F9870C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CB548E8D29ABA9DF00C5CEC7 /* Build configuration list for PBXNativeTarget "EmojiDictionary" */ = {
+		CB48C53429B0903200F9870C /* Build configuration list for PBXNativeTarget "Meal Tracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CB548E8E29ABA9DF00C5CEC7 /* Debug */,
-				CB548E8F29ABA9DF00C5CEC7 /* Release */,
+				CB48C53529B0903200F9870C /* Debug */,
+				CB48C53629B0903200F9870C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CB548E7129ABA9DC00C5CEC7 /* Project object */;
+	rootObject = CB48C51829B0903000F9870C /* Project object */;
 }
